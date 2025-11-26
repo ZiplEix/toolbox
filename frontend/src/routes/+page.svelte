@@ -3,9 +3,18 @@
     import Card from "$lib/ui/Card.svelte";
 </script>
 
-<div class="container mx-auto p-8 max-w-7xl">
+<div class="container mx-auto p-8">
     <div class="mb-12 text-center">
-        <h1 class="text-4xl font-bold tracking-tight text-foreground mb-4">
+        <div class="flex justify-center mb-6">
+            <img
+                src="/favicon.png"
+                alt="Toolbox Logo"
+                class="w-24 h-24 object-contain"
+            />
+        </div>
+        <h1
+            class="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent"
+        >
             My Toolbox
         </h1>
         <p class="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -13,11 +22,11 @@
         </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="flex flex-wrap justify-center gap-6">
         {#each tools as tool}
             <a
                 href={tool.link}
-                class="block h-full group no-underline"
+                class="block w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.33%-1rem)] group no-underline"
                 target={tool.isExternal ? "_blank" : undefined}
                 rel={tool.isExternal ? "noopener noreferrer" : undefined}
             >
