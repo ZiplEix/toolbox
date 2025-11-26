@@ -15,24 +15,9 @@ export const tools: Tool[] = [
         isExternal: false
     },
     {
-        title: 'JSON Formatter',
-        description: 'A simple tool to format and validate JSON data.',
-        link: 'https://github.com/baptiste/json-formatter',
-        githubLink: 'https://github.com/baptiste/json-formatter',
-        isExternal: true
-    },
-    {
-        title: 'Regex Tester',
-        description: 'Test and debug regular expressions in real-time.',
-        link: 'https://github.com/baptiste/regex-tester',
-        githubLink: 'https://github.com/baptiste/regex-tester',
-        isExternal: true
-    },
-    {
-        title: 'Color Palette Generator',
-        description: 'Generate beautiful color palettes for your projects.',
-        link: 'https://github.com/baptiste/color-palette',
-        githubLink: 'https://github.com/baptiste/color-palette',
-        isExternal: true
+        title: 'Home Server',
+        description: 'A simple dashboard to manage my home server tools.',
+        link: '/home-server',
+        isExternal: false
     }
 ];
