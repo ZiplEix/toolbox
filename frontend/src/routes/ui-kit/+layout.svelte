@@ -70,6 +70,15 @@
             </a>
         </div>
         <div class="p-2">
+            <a
+                href="/ui-kit/demo"
+                class="block px-4 py-2 text-sm font-medium rounded-md hover:bg-primary-100 mb-2 {$page
+                    .url.pathname === '/ui-kit/demo'
+                    ? 'bg-primary-50 text-primary-700'
+                    : 'bg-primary-50 text-gray-700'}"
+            >
+                Full Demo
+            </a>
             <TreeView nodes={treeNodes} bind:selectedId />
         </div>
     </aside>

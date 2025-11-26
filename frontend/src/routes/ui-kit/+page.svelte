@@ -14,13 +14,15 @@
                 Svelte 5.
             </p>
         </div>
-        <Button
-            href="/UI_KIT_LLM.md"
-            download="UI_KIT_LLM.md"
-            variant="outline"
-        >
-            Download LLM Docs
-        </Button>
+        <div class="flex gap-4">
+            <Button
+                href="/UI_KIT_LLM.md"
+                download="UI_KIT_LLM.md"
+                variant="outline"
+            >
+                Download LLM Docs
+            </Button>
+        </div>
     </div>
 
     {#each categories as category}
