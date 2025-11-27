@@ -19,5 +19,11 @@ export const tools: Tool[] = [
         description: 'A simple dashboard to manage my home server tools.',
         link: '/home-server',
         isExternal: false
+    },
+    {
+        title: 'LoL Match Scraper',
+        description: 'Scrape League of Legends match data and timeline.',
+        link: '/lol-match-scrapper',
+        isExternal: false
     }
 ];
