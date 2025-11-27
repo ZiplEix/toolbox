@@ -68,12 +68,12 @@
             >
                 <img
                     src={logo}
-                    alt="LoL Match Scraper Logo"
+                    alt="Nexus Analytics Logo"
                     class="w-full h-full object-contain"
                 />
             </div>
             <h1 class="text-4xl font-bold text-primary-400">
-                LoL Match Scraper
+                Nexus Analytics
             </h1>
         </div>
 

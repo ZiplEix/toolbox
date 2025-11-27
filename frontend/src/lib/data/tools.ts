@@ -21,9 +21,9 @@ export const tools: Tool[] = [
         isExternal: false
     },
     {
-        title: 'LoL Match Scraper',
+        title: 'Nexus Analytics',
         description: 'Scrape League of Legends match data and timeline.',
-        link: '/lol-match-scrapper',
+        link: '/nexus-analytics',
         isExternal: false
     }
 ];
