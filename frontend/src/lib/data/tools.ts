@@ -25,5 +25,12 @@ export const tools: Tool[] = [
         description: 'Scrape League of Legends match data and timeline.',
         link: '/lol-data-scraper',
         isExternal: false
+    },
+    {
+        title: 'Nexus Analytics',
+        description: 'Real-time League of Legends tactical assistant using Live Client Data API and Google Gemini AI.',
+        link: 'https://github.com/ZiplEix/nexus-analytics',
+        githubLink: 'https://github.com/ZiplEix/nexus-analytics',
+        isExternal: true
     }
 ];
