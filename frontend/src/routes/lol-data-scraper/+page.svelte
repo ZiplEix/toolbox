@@ -63,17 +63,8 @@
 <div class="min-h-[80vh] flex items-center justify-center p-4">
     <div class="w-full max-w-2xl mx-auto">
         <div class="flex flex-col items-center gap-4 mb-12">
-            <div
-                class="w-64 h-64 bg-white rounded-3xl shadow-sm p-6 flex items-center justify-center overflow-hidden"
-            >
-                <img
-                    src={logo}
-                    alt="Nexus Analytics Logo"
-                    class="w-full h-full object-contain"
-                />
-            </div>
             <h1 class="text-4xl font-bold text-primary-400">
-                Nexus Analytics
+                lol-data-scraper
             </h1>
         </div>
 
